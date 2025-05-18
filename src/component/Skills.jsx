@@ -4,7 +4,7 @@ import { getSkills } from "../content";
 function Skills() {
   const skill = getSkills();
   return (
-    <section className="m-15 lg:mx-40 my-40">
+    <section className="m-10 lg:mx-40 my-20">
       <h1 className="text-center text-4xl mb-10">Skills</h1>
       <marquee
         behavior="scroll"
